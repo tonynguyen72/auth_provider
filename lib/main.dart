@@ -44,7 +44,10 @@ class MyApp extends StatelessWidget {
           } else {
             return Center(
                 child: Container(
-              child: CircularProgressIndicator(),
+              child: CircularProgressIndicator(
+                strokeWidth: 6,
+                backgroundColor: Colors.purpleAccent,
+              ),
             ));
           }
         },
